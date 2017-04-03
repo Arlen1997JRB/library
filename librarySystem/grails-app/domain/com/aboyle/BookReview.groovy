@@ -1,15 +1,18 @@
 package com.aboyle
 
 class BookReview {
-String book
-Date dateCreated
-String Student
+Book title
+Date dateReviewed
+Student userName
 String review
+String reviewTitle
+
 
     static constraints = {
-book blank:false, nullable:false maxSize: 100
-dateCreated blank:false, nullable:false
-student blank:false, nullable:false
+dateReviewed blank:false, nullable:false
 review blank:false, nullable:false, widget:'textarea'
+title blank:false, nullable:false
+userName blank:false, nullable:false, unique:true
+reviewTitle blank:false, nullable:false
     }
 }

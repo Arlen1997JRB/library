@@ -8,6 +8,8 @@ String department
 String description
 String studyMode
 
+static hasMany = [name:Student]
+
     static constraints = {
 title blank:false, nullable:false
 code blank:false, nullable:false

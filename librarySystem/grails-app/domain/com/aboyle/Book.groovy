@@ -12,7 +12,9 @@ Boolean overdue
 Library buildingName
 
 static hasMany = [reviewTitle:BookReview]
-
+String toString(){
+return title
+}
     static constraints = {
 title blank:false, nullable:false
 subject blank:false, nullable:false, maxSize: 300

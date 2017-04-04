@@ -3,7 +3,7 @@ package com.aboyle
 class BootStrap {
 
     def init = { servletContext ->
-	def Library = new Library(
+	/* def Library = new Library(
 	buildingName:'Adsetts',
 	address:'Some made up address',
 	openingHours:'09:00',
@@ -115,7 +115,7 @@ class BootStrap {
 	userName:Student2,
 	review:'qweqweqweq',
 	reviewTitle:'qweqweq'
-	).save()
+	).save()*/
 
 
 	

@@ -9,6 +9,10 @@ String password
 String telephone
 Library buildingName
 
+String toString(){
+return name
+}
+
     static constraints = {
 name blank:false, nullable:false
 email blank:false, nullable:false

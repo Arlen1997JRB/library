@@ -7,6 +7,9 @@ Student userName
 String review
 String reviewTitle
 
+String toString(){
+return title
+}
 
     static constraints = {
 dateReviewed blank:false, nullable:false

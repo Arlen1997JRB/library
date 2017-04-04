@@ -10,6 +10,9 @@ Course title
 Library buildingName
 
 static hasMany = [reviewTitle:BookReview, title:Book]
+String toString(){
+return name
+}
 
     static constraints = {
 name blank:false, nullable:false

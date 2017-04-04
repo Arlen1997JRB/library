@@ -8,6 +8,9 @@ String location
 String studySpaces
 
 static hasMany = [name:Librarian, title:Book, name:Student]
+String toString(){
+return buildingName
+}
 
     static constraints = {
 buildingName blank:false, nullable:false

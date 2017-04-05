@@ -17,6 +17,7 @@
     <div class="row">
 	<asset:image src="LibraryBanner.jpg"/>
 	<g:loginToggle/>
+	<g:studentLoginToggle/>
     </div>
 
     <g:layoutBody/>

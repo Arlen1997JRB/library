@@ -33,4 +33,26 @@ class StudentController {
 
 }
 
+
+   def advSearch(){
+
+}
+
+def advResults(){
+
+
+    def books = Book.withCriteria{
+	def bookProps = Book.metaClass.properties*.name
+	"$params.queryType"{
+		params.each{field, value->
+		
+			if(bookProps.grep(field) && value){
+			ilike(field,value)
+			}
+		}
+	}
+    }	
+	[ books : books ]
+}
+ 
 }

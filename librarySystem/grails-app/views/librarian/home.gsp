@@ -66,6 +66,16 @@
 		<g:link controller="librarian" action="create"> Librarian</g:link>
 	</button>
 </div>
+<div class="second">
+	<h3>Advanced Search</h3>
+
+<p>Search</p>
+
+	<button type="button" class="btn btn-success">
+
+		<g:link controller="librarian" action="advSearch"> Book Review</g:link>
+	</button>
+</div>
 
 </div>
 </div>

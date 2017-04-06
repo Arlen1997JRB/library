@@ -6,7 +6,7 @@
     <asset:stylesheet src="home.css"/>
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
 </head>
-<body>  
+<body>
 
     <div id="content" role="main">
 
@@ -41,6 +41,22 @@
 
 	<button type="button" class="btn btn-success">
 
+
 		<g:link controller="book" action="index"> Books in library</g:link>
 	</button>
 </div>
+
+<div class="second">
+	<h3>Advanced Search</h3>
+
+<p>Search</p>
+
+	<button type="button" class="btn btn-success">
+
+		<g:link controller="student" action="advSearch"> Book Review</g:link>
+	</button>
+</div>
+</div>
+</div>
+</body>
+</html>
